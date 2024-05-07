@@ -1,0 +1,189 @@
+body {
+    background-color: #3C3B38;
+	 font-family: 'Courier New', monospace;
+}
+
+.demo {
+    padding: 5px 120px 5px 120px;
+    background-color: #DBC1BF;
+    height: auto;
+}
+
+.demo1 {
+    padding: 5px 120px 5px 120px;
+    background-color: #BFA39E;
+    height: auto;
+}
+
+.demo2 {
+    padding: 5px 120px 5px 120px;
+    background-color: #93756B;
+    height: auto;
+}
+
+.demo3 {
+    padding: 5px 120px 5px 120px;
+    background-color: #FFF1EB;
+    height: auto;
+}
+
+.demo4 {
+    padding: 5px 120px 5px 120px;
+    background-color: #CEB8A6;
+    height: auto;
+}
+
+.demo5 {
+    padding: 5px 120px 5px 120px;
+    background-color: #BC9E80;
+    height: auto;
+}
+
+.demo6 {
+    padding: 5px 120px 5px 120px;
+    background-color: #CFCDC0;
+    height: auto;
+}
+
+.demo7 {
+    padding: 5px 120px 5px 120px;
+    background-color: #C4B8A2;
+    height: auto;
+}
+
+.demo8 {
+    padding: 5px 120px 5px 120px;
+    background-color: #AF9F85;
+    height: auto;
+}
+
+.demo9 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffe2e6;
+    height: auto;
+}
+
+.demo10 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffdbe0;
+    height: auto;
+}
+
+.demo11 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffd3da;
+    height: auto;
+}
+.demo12 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffccd4;
+    height: auto;
+}
+
+.demo13 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffc5cd;
+    height: auto;
+}
+
+.demo14 {
+    padding: 5px 120px 5px 120px;
+    background-color: #ffb6c1;
+    height: auto;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #D18E39;
+  z-index: 100000;
+
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  font-size: 1.5em;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+  z-index: 100000;
+  background-color: #D0B189;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+  z-index: 100000;
+  background-color: #D0B189;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100000;
+  background-color: #D0B189;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+  z-index: 100000;
+  background-color: #D0B189;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("file:///C:/Users/GamerFrost/Downloads/Website%20IPBA%201/WEBSITE.png");
+  min-height: 350px;
+  min-width: 1300px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.bar {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #D9C5AE;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EBDEDC; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
